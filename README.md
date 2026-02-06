@@ -41,3 +41,7 @@ Launcher -> Notebook -> Python 3 (ipykernel)
 ```
 
 This will create a notebook file with an `.ipynb` extension.
+
+## Jupyter shortcuts
+
+https://github.com/dskecse/ml-playground/#jupyter-shortcuts

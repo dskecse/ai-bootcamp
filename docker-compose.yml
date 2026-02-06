@@ -1,6 +1,6 @@
 services:
   jupyter:
-    image: quay.io/jupyter/minimal-notebook:2025-11-06 # or latest
+    image: quay.io/jupyter/minimal-notebook:2026-02-03 # or latest
     container_name: ai-bootcamp
     volumes:
       - ./:/home/jovyan/work # maps the repo's root dir to the container's work dir

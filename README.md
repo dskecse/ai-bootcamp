@@ -7,7 +7,8 @@
 ## Prerequisites
 
 * git
-* Docker Desktop / OrbStack
+* Docker Desktop / OrbStack (optional)
+* Python 3.13.x (when not using Docker)
 
 ## Setup
 

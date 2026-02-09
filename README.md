@@ -11,6 +11,8 @@
 
 ## Setup
 
+### Docker
+
 ```sh
 git clone https://github.com/dskecse/ai-bootcamp
 cd $_
@@ -29,6 +31,19 @@ This will:
 * serve notebooks from the repo dir.
 
 To access the server (Jupyter Dashboard), open up http://localhost:8888/lab?token=TOKEN.
+
+### Without Docker
+
+```sh
+git clone https://github.com/dskecse/ai-bootcamp
+cd $_
+python3 -m venv ai-bootcamp
+source ai-bootcamp/bin/activate
+pip install -U pip
+pip install -r requirements.txt
+```
+
+Open up Jupyter notebooks (files with an `.ipynb` extension) in your editor of choice.
 
 ## Creating Jupyter Notebooks
 

@@ -61,3 +61,10 @@ This will create a notebook file with an `.ipynb` extension.
 ## Jupyter shortcuts
 
 https://github.com/dskecse/ml-playground/#jupyter-shortcuts
+
+## Utilities
+
+* [memclean](./memclean.py)
+  * frees old copies of `model` and `tokenizer` from RAM/VRAM while keeping the Colab/Jupyter session's disk cache intact
+  * so the model reloads instantly from local storage
+  * prevents RAM/VRAM buildup

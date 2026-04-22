@@ -55,7 +55,7 @@ torch==2.8.0
 torchaudio==2.8.0
 torchvision==0.23.0
 tqdm==4.67.1
-transformers==4.55.1
+transformers==5.0.0rc3
 typing-inspection==0.4.1
 typing_extensions==4.14.1
 tzdata==2025.2

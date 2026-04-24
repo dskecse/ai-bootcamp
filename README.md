@@ -17,6 +17,7 @@
 ```sh
 git clone https://github.com/dskecse/ai-bootcamp
 cd $_
+cp .env.example .env
 docker compose up
 ```
 
@@ -24,10 +25,12 @@ This will:
 
 * clone the repo
 * `cd` into the repo dir
+* create a `.env` file from `.env.example` with example env variables (e.g. `HF_TOKEN`)
 * pull up the official [`minimal-notebook` Docker image](https://quay.io/repository/jupyter/minimal-notebook?tab=tags)
   * includes JupyterLab and common useful utilities
   * [based off of the `base-notebook`](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#image-relationships)
 * map the repo's root dir to the container's work dir
+* automatically load the `.env` file and make env variables available for substitution in `docker-compose.yml`
 * spin up the Jupyter Server on port `8888`
 * serve notebooks from the repo dir.
 
@@ -38,6 +41,7 @@ To access the server (Jupyter Dashboard), open up http://localhost:8888/lab?toke
 ```sh
 git clone https://github.com/dskecse/ai-bootcamp
 cd $_
+cp .env.example .env
 python3 -m venv ai-bootcamp
 source ai-bootcamp/bin/activate
 pip install -U pip

@@ -47,7 +47,7 @@ scikit-learn==1.7.1
 scipy==1.16.1
 sentence-transformers==5.1.0
 sentencepiece==0.2.1
-setuptools==80.9.0
+setuptools==83.0.0
 six==1.17.0
 sympy==1.14.0
 threadpoolctl==3.6.0
